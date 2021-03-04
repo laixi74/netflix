@@ -1,7 +1,7 @@
 <script>
   import Header from "$components/Header.svelte"
   import Nav from "$components/Nav.svelte"
-    
+  import Footer from '$components/Footer.svelte'  
 </script>
 
 <Header />
@@ -9,7 +9,7 @@
 <Nav />
 
 <main>
-  <h2></h2>
+  <h2>Bridgerton</h2>
 
   <p>
     <em>Description:</em> “The eight close-knit siblings of the Bridgerton family
@@ -25,4 +25,7 @@
     where you just want to read one more chapter before you turn off the light
     for the night.” –NPR
   </p>
-</main>
+
+  </main>
+
+  <Footer />

@@ -1,7 +1,7 @@
 <script>
   import Header from '$components/Header.svelte'
   import Nav from '$components/Nav.svelte'
-
+  import Footer from '$components/Footer.svelte'
 </script>
 
 
@@ -24,17 +24,20 @@
   <p>Click the links above to explore the top 3 biggest Netflix shows.</p>
 </main>
 
+<Footer />
+
 <style>
   /* LAYOUT */
-  Header { grid-area: h; }
-  Nav { grid-area: n; }
-  main { grid-area: m; }
-  
+  :global(Header) { grid-area: h; }
+  :global(Nav)    { grid-area: n; }
+  :global(main)   { grid-area: m; }
+  :global(Footer) { grid-area: f; }
 
   :global(#svelte) {
     display: grid;
     grid: " h   n   " auto
           " m   m   " auto
+          " f   f   " auto
           / 3fr 1fr ;
   }
 
