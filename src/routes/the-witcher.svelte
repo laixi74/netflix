@@ -4,9 +4,11 @@
     import Footer from '$components/Footer.svelte'  
   </script>
 
-<Header />
 
 <Nav />
+<Header />
+
+
 
 <main>
     <h2>The Witcher</h2>

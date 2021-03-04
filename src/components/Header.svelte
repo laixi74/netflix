@@ -1,22 +1,11 @@
-<header>
-  <img src="/images/logo.jpeg" alt="The Netflix Logo" />
-  <h1>Netflix's Biggest Originals</h1>
+
+
+<header class="hero is-primary">
+  <div class="hero-body">
+    <p class="title">
+      <img class="image is-48x48" src="/images/logo.jpeg" alt="The Netflix Logo" />
+      Netflix's Biggest Originals
+    </p>
+  </div>
 </header>
-
-<style>
-  header {
-    background-color: #dddddd;
-    display: flex;
-    align-items: center;
-  }
-
-  img {
-    height: 6em;
-  }
-
-  h1 {
-    font-size: 2em;
-    font-weight: bold;
-    margin-left: 1em;
-  }
-</style>
+<br>

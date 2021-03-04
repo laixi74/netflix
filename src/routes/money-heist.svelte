@@ -4,9 +4,10 @@
     import Footer from '$components/Footer.svelte'  
   </script>
   
+  <Nav />
   <Header />
   
-  <Nav />
+
   
   <main>
     <h2>Money Heist</h2>

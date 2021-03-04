@@ -1,28 +1,12 @@
-<nav>
-  <a href=".">Home</a>
-  <a href="bridgerton">Bridgerton</a>
-  <a href="the-witcher">The Witcher</a>
-  <a href="money-heist">Money Heist</a>
 
+
+<nav class="navbar is-dark" >
+  <div class="navbar-brand">
+    <a class="navbar-item" href="bridgerton">Home</a>
+  </div>
+  <div class="navbar-menu">
+    <a class="navbar-item has-text-light" href="the-witcher">The Witcher</a>
+    <a class="navbar-item has-text-light" href="bridgerton">Bridgerton</a>
+    <a class="navbar-item has-text-light" href="money-heist">Money Heist</a>
+  </div>
 </nav>
-
-<style>
-  nav {
-    background-color: #dddddd;
-  }
-
-  nav a {
-    font-family: "Akaya Telivigala", sans-serif;
-    text-decoration: none;
-    color: black;
-    background-color: white;
-    display: block;
-    margin-bottom: 0.25em;
-    padding-left: 0.25em;
-    padding-right: 0.25em;
-  }
-
-  nav a:hover {
-    text-decoration: underline;
-  }
-</style>

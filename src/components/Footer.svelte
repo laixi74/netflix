@@ -1,16 +1,8 @@
-<footer>
-  <p>
-    &copy; School 2021
-  </p>
+
+<footer class="footer">
+  <div class="content has-text-centered">
+    <p>
+      <strong>School2021</strong>
+    </p>
+  </div>
 </footer>
-
-<style>
-  footer {
-    height: 5em;
-    background-color: #dddddd;
-  }
-
-  p {
-    text-align: center;
-  }
-</style>

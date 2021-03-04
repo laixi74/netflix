@@ -4,11 +4,11 @@
   import Footer from '$components/Footer.svelte'
 </script>
 
-
+<Nav />
 <Header />
 
-<Nav />
 
+<section class="*-4">
 <main>
   <h2>Netflix</h2>
 
@@ -23,7 +23,7 @@
 
   <p>Click the links above to explore the top 3 biggest Netflix shows.</p>
 </main>
-
+</section>
 <Footer />
 
 <style>
